@@ -9,7 +9,7 @@ public class basic {
         // store 5 names
         //String[] name = new String[5];
 
-        // to store data of 5 students(including name, roll_number, marks)
+        // But what if , To store data of 5 students(including name, roll_number, marks)
         Students[] students = new Students[5];
 
         students[0] = new Students(578, "santu", 80.8f);
@@ -20,21 +20,27 @@ public class basic {
         
         students[3] = new Students(58, "Gupta", 50.8f);
         
-        students[4] = new Students(78, "kumar", 62f);
+        students[4] = new Students();
 
         for(Students s : students) {
             System.out.println(s);
         }
-       
         
     }
     
 }
 
+
+
 class Students {
     int roll_number;
     String name;
     Float marks;
+
+    // constructors basically defined what happens when objects will be created
+    Students() {
+
+    }
 
     Students (int roll_number, String name, Float marks) {
         this.roll_number = roll_number;
@@ -46,5 +52,4 @@ class Students {
         return "Name: " + name + ", Roll Number: " + roll_number + ", Marks: " + marks;
     }
 
-  
 }
