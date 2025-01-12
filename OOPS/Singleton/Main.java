@@ -7,7 +7,6 @@ public class Main {
         Singleton obj_2 = Singleton.getInstance();
         Singleton obj_3 = Singleton.getInstance();
 
-        
 
     }
     
