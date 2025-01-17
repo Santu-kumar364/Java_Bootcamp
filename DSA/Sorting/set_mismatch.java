@@ -1,11 +1,10 @@
 package Java_Bootcamp.DSA.Sorting;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 
-public class Mismatch {
-        public static void main(String[] args) {
+public class set_mismatch {
+    public static void main(String[] args) {
         int[] arr = {1,2,2,4};
 
         List<Integer> result =  All_Duplicate(arr);
@@ -49,6 +48,8 @@ public class Mismatch {
         arr[last] = temp;
         
     }
-
     
 }
+
+
+
