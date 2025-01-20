@@ -1,5 +1,7 @@
 package Java_Bootcamp.Stringz;
 
+import java.util.Arrays;
+
 /*public class Palindrome {
     public static void main(String[] args) {
         String str = "Race car";
@@ -39,5 +41,4 @@ package Java_Bootcamp.Stringz;
 */
 
  
-
-      
+ 
