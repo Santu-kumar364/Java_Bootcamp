@@ -1,36 +1,33 @@
 package Java_Bootcamp.patterns;
 
-public class Diamond {
+/*public class Diamond {
 
     public static void main(String[] args) {
         int n = 5;
 
-        //Upper-part
-        for(int i = 1; i <= n; i++) {
-            for(int j = 0; j < n-i; j++) {
+        for(int row = 1; row < 2 * n; row++) {
+            int totalSpaces = row < n ? n-row : row - n;
+            int totalStars = row < n ? 2 * row - 1 : 2 * (2 * n - row) - 1;
+
+            for(int space = 0; space < totalSpaces; space++) {
                 System.out.print(" ");
             }
 
-            for(int j = 1; j <= i; j++) {
-                System.out.print("* ");
+            for(int star = 0; star < totalStars; star++) {
+                System.out.print("*");
             }
+
             System.out.println();
         }
 
-        // Lower-part
-        for(int i = n-1; i >= 1; i--) {
-            for(int j = 0; j < n-i; j++) {
-                System.out.print(" ");
-            }
-            
-            for(int j = 1; j <= i; j++) {
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
+          
     }
     
-}
+}*/
+
+
+ 
+
 
 
 

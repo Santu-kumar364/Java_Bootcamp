@@ -52,21 +52,16 @@ public class LeftSkewedTriangle {
     public static void main(String[] args) {
         int n = 5;
 
-        //Upper-part
-        for(int i = 1; i <= n; i++) {
-            for(int j = 1; j <= i; j++) {
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
+        for(int row = 1; row < 2 * n; row++) {
+            // Calculate the number of stars for the current row
+            int stars = row < n ? row : 2 * n - row;    // Ternary operator
 
-        // Lower-part
-        for(int i = n-1; i >= 1; i--) {
-            for(int j = 1; j <= i; j++) {
+            for(int column = 1; column <= stars; column++) {
                 System.out.print("* ");
             }
             System.out.println();
         }
+ 
     }
     
 }
