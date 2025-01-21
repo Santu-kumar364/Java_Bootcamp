@@ -37,7 +37,7 @@ public class CustomGenArrList<T> {
         return removed;
     } 
 
-    public int get(int index) {
+    public T get(int index) {
         return (T)data[index];
     }
 
@@ -54,7 +54,6 @@ public class CustomGenArrList<T> {
         return Arrays.toString(data);
     }
     
-
     public static void main(String[] args) {
         CustomGenArrList  list = new CustomGenArrList();
 
@@ -63,7 +62,7 @@ public class CustomGenArrList<T> {
         //list.add(1);
 
         for(int i = 0; i < 12; i++) {
-            list.add(2 * i);
+            list.add("santu" + i);
         }
 
         System.out.println(list);

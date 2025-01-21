@@ -2,7 +2,7 @@ package Java_Bootcamp.OOPS.genrics;
  
 import java.util.Arrays;
 
-public class CustomArrayList {
+/*public class CustomArrayList {
 
     private int[] data;
     private static int DEFAULT_SIZE = 10;
@@ -70,9 +70,7 @@ public class CustomArrayList {
 
     }
     
-}
+}*/
 
 
-
-
-
+ 

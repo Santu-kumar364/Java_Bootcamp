@@ -1,0 +1,10 @@
+package Java_Bootcamp.OOPS.genrics;
+
+public class Main implements GenericInterface<Integer> {
+
+    @Override
+    public void display(Integer value) {
+        
+    }
+    
+}
