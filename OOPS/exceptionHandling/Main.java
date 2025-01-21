@@ -18,6 +18,9 @@ public class Main {
     }
 
     static int divide(int a, int b) {
+        if(b == 0) {
+            throw new ArithmeticException("please do not divide by zero");
+        }
         return a/b;
     }
     
