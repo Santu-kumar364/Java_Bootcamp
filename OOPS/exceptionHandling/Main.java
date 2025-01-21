@@ -8,13 +8,17 @@ public class Main {
         int b = 0;
 
         try {
-            int c = a/b;   
+            divide(a, b);   
         } catch (ArithmeticException  e) {
             System.out.println(e.getMessage());
         } finally {
             System.out.println("this will always be executed.");
         }
         
+    }
+
+    static int divide(int a, int b) {
+        return a/b;
     }
     
 }
