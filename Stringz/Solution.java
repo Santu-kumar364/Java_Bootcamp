@@ -1,7 +1,5 @@
 package Java_Bootcamp.Stringz;
 
-import java.util.Arrays;
-
 /*public class Palindrome {
     public static void main(String[] args) {
         String str = "Race car";
@@ -41,4 +39,17 @@ import java.util.Arrays;
 */
 
  
- 
+class santu{
+    public static void main(String[] args) {
+        String a = "santu";
+        // String b = "santu";
+
+        // String a = new String("ajeet");
+        
+        String b = new String("santu");
+
+         System.out.println(a==b);
+         System.out.println(a.equals(b));
+        
+    }
+} 
