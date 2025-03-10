@@ -38,18 +38,3 @@ package Java_Bootcamp.Stringz;
 }
 */
 
- 
-class santu{
-    public static void main(String[] args) {
-        String a = "santu";
-        // String b = "santu";
-
-        // String a = new String("ajeet");
-        
-        String b = new String("santu");
-
-         System.out.println(a==b);
-         System.out.println(a.equals(b));
-        
-    }
-} 

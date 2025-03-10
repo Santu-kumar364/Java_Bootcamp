@@ -1,10 +1,10 @@
-package Java_Bootcamp.Math;
+package Java_Bootcamp.Math.BitManiputions;
 
 public class setIndex {
 
     static int ans(int num, int index) {
 
-        int result = 1 << index - 1;
+        int result = 1 << (index - 1);
         return (result | num) ;
 
     }

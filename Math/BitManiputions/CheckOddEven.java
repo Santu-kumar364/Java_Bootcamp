@@ -1,5 +1,4 @@
 package Java_Bootcamp.Math.BitManiputions;
-
 import java.util.Scanner;
 
 public class CheckOddEven {

@@ -1,9 +1,7 @@
 package Java_Bootcamp.Math.BitManiputions;
-
 import java.util.Scanner;
 
 public class Nth_bitOfNumber {
-
     static int ans(int num) {
         int indexAt = 2;
         int result = 1 << (indexAt-1);

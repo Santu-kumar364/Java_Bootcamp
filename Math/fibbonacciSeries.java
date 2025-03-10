@@ -6,12 +6,13 @@ public class fibbonacciSeries {
         int f1 = 0;
         int f2 = 1;
 
-        for(int i = 0; i <= n; i++) {
+        for(int i = 0; i < n; i++) {
             System.out.print(f1 + " ");
             int next = f1+ f2;
             f1 = f2;
-            f2 = next;
+            f2 = next; 
         }
+        
     }
 
     public static void main(String[] args) {

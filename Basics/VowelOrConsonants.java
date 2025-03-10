@@ -1,13 +1,14 @@
 package Java_Bootcamp.Basics;
+
 import java.util.Scanner;
 
-/*public class VowelOrConsonants {
+public class VowelOrConsonants {
 
     public static void main(String[] args) {
 
         String vowels = "aeiou";
         
-        
+
         Scanner sc = new Scanner(System.in);
         char letter = sc.next().toLowerCase().charAt(0);
         
@@ -26,8 +27,6 @@ import java.util.Scanner;
     }
     
 }
-*/
 
 
-
- 
+  

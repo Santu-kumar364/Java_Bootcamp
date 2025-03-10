@@ -2,6 +2,9 @@ package Java_Bootcamp.Basics;
 
 // public class PrintTable {
 
+import java.util.Scanner;
+
+
 //     public static void main(String[] args) {
         
 //         for(int i = 5; i <= 5; i++) {
@@ -13,5 +16,6 @@ package Java_Bootcamp.Basics;
 //     }
     
 //}
+
 
  

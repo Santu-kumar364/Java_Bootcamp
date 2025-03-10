@@ -33,7 +33,7 @@ package Java_Bootcamp.patterns;
 
                // Reverse
 
-/*public class LeftSkewedTriangle {
+public class LeftSkewedTriangle {
     public static void main(String[] args) {
         int n = 6;
 
@@ -45,7 +45,7 @@ package Java_Bootcamp.patterns;
         }
     }
     
-}*/
+}
 
 
 /*public class LeftSkewedTriangle {
