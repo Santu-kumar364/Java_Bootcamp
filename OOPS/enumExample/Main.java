@@ -5,26 +5,16 @@ public class Main {
         Monday, Tuesday, Wednesday, Thrusday, Friday, Saturday, Sunday;
 
         Week() {
-            System.out.println("Constructor called for " + this);
+            System.out.println("Contructor is called: " + this);
         }
     }
 
     public static void main(String[] args) {
-
-
-        Week week;
-        week = Week.Thrusday;
-
-        /*for(Week day : Week.values()) {
+        for (Week day : Week.values()) {
             System.out.println(day);
-
-        }*/
-
-        System.out.println(week.ordinal());
-        
+        }
     }
-    
 }
 
 
-
+ 

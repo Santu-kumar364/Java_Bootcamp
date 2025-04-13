@@ -7,14 +7,12 @@ public class Main {
         int b = 0;
 
         try {
-            //divide(a, b);   
+            // divide(a, b);   
             String name = "santu";
             if(name.equals("santu")) {
                 throw new MyException("name is santu");
             }
         } catch (MyException e) {
-            System.out.println(e.getMessage());
-        } catch (ArithmeticException  e) {
             System.out.println(e.getMessage());
         } catch (Exception e) {
             System.out.println("normal exceptions");
@@ -25,13 +23,12 @@ public class Main {
         
     }
 
-    static int divide(int a, int b) throws ArithmeticException {
+    static int divide(int a, int b) throws ArithmeticException{
         if(b == 0) {
             throw new ArithmeticException("please do not divide by zero");
         }
         return a/b;
     }
-    
 }
 
 

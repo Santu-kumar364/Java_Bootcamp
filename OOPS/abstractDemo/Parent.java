@@ -2,7 +2,7 @@ package Java_Bootcamp.OOPS.abstractDemo;
 
 public abstract class Parent {
 
-    public static final String printCity = null;
+    public static final String PRINT_CITY = null;
     int age;
 
     Parent(int age) {
@@ -13,7 +13,7 @@ public abstract class Parent {
     abstract void career(); 
 
     // normal methode
-    void pringAge() {
+    void printAge() {
         System.out.printf("I am %d years old.", age);
     } 
 

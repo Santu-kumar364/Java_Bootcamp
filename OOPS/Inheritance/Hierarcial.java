@@ -4,10 +4,10 @@ package Java_Bootcamp.OOPS.Inheritance;
 class Shape{
     double side;
     public Shape(double side) {
-        this.side = side;;
+        this.side = side;
     }
     void square() {
-        System.out.println("this is shape class");
+        System.out.println("Parent is called with side: " + side);
     }
 }
 
@@ -34,8 +34,11 @@ class B extends Shape {
 
 public class Hierarcial {
     public static void main(String[] args) {
+        Shape side = new Shape(4);
         Shape result = new A(7.2);
         B volume = new B(4.2);
+
+        side.square();
         result.square();
         volume.cube();
     }

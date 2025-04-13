@@ -6,8 +6,8 @@ public class Main {
         Car tesla = new Car("Tesla", 4, true);
 
         System.out.println(Car.population);
-
-
+        Car.msg();
+    
     }
 
     static void fun() {

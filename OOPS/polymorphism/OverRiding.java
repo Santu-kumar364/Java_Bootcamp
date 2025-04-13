@@ -32,7 +32,7 @@ class UPI extends Payment {
 
 public class OverRiding{
     public static void main(String[] args) {
-        Payment p;
+        CreditCard p;
         
         p = new CreditCard();
         p.pay(25000);
@@ -43,7 +43,6 @@ public class OverRiding{
         p = new UPI();
         p.pay(50000);
     }
-
 }
 
 

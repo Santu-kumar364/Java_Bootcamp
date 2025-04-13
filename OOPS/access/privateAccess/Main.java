@@ -6,9 +6,11 @@ public class Main {
         Example ex = new Example(12, "santu");
 
         System.out.println(ex.getNum());
-        System.out.println(ex.name);;
-        
-
+        System.out.println(ex.name);
     }
-    
 }
+
+
+  
+
+

@@ -30,13 +30,9 @@ class Santu {
         int f1 = 0;
         int f2 = 1;
 
-        if(n == 1)  
-            return f1;
-        
-        if(n == 2) 
-            return f2;
-
-        for(int i = 3; i <= n; i++) {
+        // if(n < 2) return n;
+      
+        for(int i = 2; i <= n; i++) {
             int next = f1 + f2;
             f1 = f2;
             f2 = next;
@@ -44,7 +40,7 @@ class Santu {
         return f2;    
     }
     public static void main(String[] args) {
-        int result = fiboN(9);
+        int result = fiboN(7);
         System.out.println(result);
         
     }

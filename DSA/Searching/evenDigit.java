@@ -13,8 +13,8 @@ public class evenDigit {
         for(int ele : nums) {
             if(even(ele)) {
                 count++;
-               }
-            }  
+            }
+        }  
         return count;      
     }
 

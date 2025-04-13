@@ -5,7 +5,6 @@ package Java_Bootcamp.OOPS.staticKwd;
      
     public Test(String name) {
         this.name = name;
-        
     }
 }
 
@@ -20,7 +19,6 @@ public class InnerClasses {
         System.out.println(a.name);
         System.out.println(b.name);
     }
-
 }
 */
 

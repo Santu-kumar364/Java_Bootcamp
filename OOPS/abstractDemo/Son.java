@@ -8,10 +8,8 @@ public class Son extends Parent {
 
     @Override
     void career() {
-        super.pringAge();
+        super.printAge();
         System.out.println("\ni am going to be a coder. ");
 
-    }
-
-    
+    } 
 }

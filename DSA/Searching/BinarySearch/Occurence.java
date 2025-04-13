@@ -1,5 +1,4 @@
 package Java_Bootcamp.DSA.Searching.BinarySearch;
-
 import java.util.Arrays;
 
 class Occurence {
