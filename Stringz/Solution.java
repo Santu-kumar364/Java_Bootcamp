@@ -1,17 +1,14 @@
 package Java_Bootcamp.Stringz;
 
 // public class Palindrome {
-//     public static void main(String[] args) {
 //         String str = "Race car";
 //         str = str.toLowerCase().replaceAll("[^a-zA-z]", "");
 //         checkPalindrome(str);
 //     }
-
 //     static void checkPalindrome(String str) {
 //         int left = 0;
 //         int right = str.length() - 1;
 //         boolean isPalindrome = true;
-
 //         while(left < right) {
 //             if(str.charAt(left) != str.charAt(right)) {
 //                 isPalindrome = false;
@@ -20,7 +17,6 @@ package Java_Bootcamp.Stringz;
 //             left++;
 //             right--;
 //         }
-
 //         if(isPalindrome) {
 //             System.out.println("yes");
 //         }
@@ -29,38 +25,47 @@ package Java_Bootcamp.Stringz;
 //         }
 //     } 
 // }
- 
+
 
 
 
 class Solution {
+    public static void main(String[] args) {
+        String str = "Race c$%ar";
+        // String str = "A man, a plan, a canal: Panama";
+        System.out.println(Palindrome(str));
+    }
 
-    public static boolean isPalindrome(String s) {
-        if (s.isEmpty()) {
+    static boolean Palindrome(String str) {
+        if(str.isEmpty()) {
             return true;
         }
+
         int start = 0;
-        int last = s.length() - 1;
-        while (start <= last) {
-            char currFirst = s.charAt(start);
-            char currLast = s.charAt(last);
+        int end = str.length() - 1;
+
+        while (start <= end) {
+            char currFirst = str.charAt(start);
+            char currLast = str.charAt(end);
+
             if (!Character.isLetterOrDigit(currFirst)) {
                 start++;
             } else if (!Character.isLetterOrDigit(currLast)) {
-                last--;
+                end--;
             } else {
                 if (Character.toLowerCase(currFirst) != Character.toLowerCase(currLast)) {
                     return false;
                 }
-                start++;
-                last--;
+                start++; 
+                end--;
             }
         }
+
         return true;
     }
-
-    public static void main(String[] args) {
-        String str = "A man, a plan, a canal: Panama";
-        System.out.println(isPalindrome(str));
-    }
 }
+
+
+
+
+ 

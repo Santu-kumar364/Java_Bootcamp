@@ -13,6 +13,7 @@ class Fibonacci {
         return (int)(Math.pow(((1 + Math.sqrt(5)) / 2), n) / Math.sqrt(5)) ;
     }
 
+    // recursive way
     static int fibo(int n) {
         if(n < 2) {
             return n;
