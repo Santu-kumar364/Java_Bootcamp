@@ -1,9 +1,6 @@
- 
 package Java_Bootcamp.Math;
 
-
 public class SeiveOf_Eratosthenes {
-
     public static void main(String[] args) {
         int n = 30;
 

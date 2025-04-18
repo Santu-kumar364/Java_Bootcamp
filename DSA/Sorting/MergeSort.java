@@ -55,7 +55,7 @@ import java.util.Arrays;
 
 
 
-
+//                   In place MerseSort     
 
 public class MergeSort {
     public static void main(String[] args) {
@@ -65,7 +65,7 @@ public class MergeSort {
     }
 
     static void mergeSortInplace(int[] arr, int s, int e) {
-        if(e - s == 1) return;
+        if(e-s == 1) return;
 
         int mid = s + (e - s) / 2;
 
