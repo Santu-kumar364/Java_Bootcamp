@@ -1,7 +1,4 @@
 package Java_Bootcamp.DSA.Recursion;
-
-
-// public class Palindrome {
 //     public static void main(String[] args) {
 //         // String str = "Race c$%ar";
 //         String str = "A man, a plan, a canal: Panama";
