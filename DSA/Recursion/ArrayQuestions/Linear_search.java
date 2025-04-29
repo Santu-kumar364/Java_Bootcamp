@@ -37,8 +37,8 @@ public class Linear_search {
     }
 
 
-     // To find all index without pass list as an argument
-     static ArrayList<Integer> findAllIndex2(int[] arr, int target, int i) {
+    // To find all index without pass list as an argument
+    static ArrayList<Integer> findAllIndex2(int[] arr, int target, int i) {
         ArrayList<Integer> list = new ArrayList<>();
         if(i == arr.length) return list;
 
@@ -48,9 +48,7 @@ public class Linear_search {
         }
 
         ArrayList<Integer> ansFromBelowCalls =  findAllIndex2(arr, target, i+1); 
-
         list.addAll(ansFromBelowCalls);
-
         return list;
     }
 }

@@ -6,7 +6,6 @@ public class skip {
         System.out.println(skipChar(str));
 
         System.out.println(skipApple(str));
- 
     }
 
     static String skipChar(String str) {

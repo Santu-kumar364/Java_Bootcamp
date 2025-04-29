@@ -7,11 +7,11 @@ public class set_mismatch {
     public static void main(String[] args) {
         int[] arr = {1,2,2,4};
 
-        List<Integer> result =  All_Duplicate(arr);
+        List<Integer> result =  mismatch(arr);
         System.out.println(result);
     }
 
-    static List<Integer> All_Duplicate(int[] arr) {
+    static List<Integer> mismatch(int[] arr) {
         List<Integer> list = new ArrayList<>();
 
         int i = 0;

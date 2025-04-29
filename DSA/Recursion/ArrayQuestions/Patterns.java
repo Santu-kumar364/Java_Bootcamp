@@ -2,8 +2,8 @@ package Java_Bootcamp.DSA.Recursion.ArrayQuestions;
 
 public class Patterns {
     public static void main(String[] args) {
-    //   triangle(4, 0);
-      triangle2(4, 0);
+      triangle(4, 0);
+    //   triangle2(4, 0);
     }
 
     static void triangle(int r, int c) {
