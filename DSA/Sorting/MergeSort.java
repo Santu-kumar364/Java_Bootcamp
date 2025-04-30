@@ -108,7 +108,6 @@ public class MergeSort {
         for(int l = 0; l < mix.length; l++) {
             arr[s + l] = mix[l];
         }
-          
     }
 }
 
