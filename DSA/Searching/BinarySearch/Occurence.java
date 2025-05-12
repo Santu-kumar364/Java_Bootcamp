@@ -39,3 +39,12 @@ class Occurence {
         System.out.println(Arrays.toString(searchRange(arr, target)));
     }
 }
+
+
+
+
+
+
+
+
+
