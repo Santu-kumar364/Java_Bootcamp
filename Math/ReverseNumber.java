@@ -1,8 +1,6 @@
 package Java_Bootcamp.Math;
-
 import java.util.Scanner;
-
-/*public class ReverseNumber {
+public class ReverseNumber {
 
     static int reverse(int num) {
         int rev = 0;
@@ -25,5 +23,5 @@ import java.util.Scanner;
     }
     
 }
-*/
+
  

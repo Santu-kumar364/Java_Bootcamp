@@ -1,5 +1,4 @@
 package Java_Bootcamp.DSA.Sorting;
- 
 import java.util.Arrays;
 
 public class InsertionSort {

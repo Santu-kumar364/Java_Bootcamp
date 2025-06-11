@@ -1,11 +1,8 @@
 package Java_Bootcamp.Basics;
-
 import java.util.Scanner;
-
 public class ArmstrongNumber {
 
     static void armstrong(int n) {
-
         int originalNum = n;    // Store the original number for comparison
         int numDigits = 0;
         int temp = n;
@@ -39,9 +36,7 @@ public class ArmstrongNumber {
 
         armstrong(num);
         sc.close();
-
     }
-    
 }
 
 

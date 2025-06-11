@@ -28,7 +28,6 @@ class santu {
         }
 
         return -1;
-
     }
     
     static void swap(int[] arr, int first, int last) {

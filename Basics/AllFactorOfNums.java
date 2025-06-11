@@ -29,14 +29,12 @@ public class AllFactorOfNums {
         for(int i = list.size() - 1; i >= 0; i--) {
             System.out.print(list.get(i) + " ");
         }
-    
     }
 
     public static void main(String[] args) {
         int n = 20;
         factors(n);
     }
-    
 }
 
 

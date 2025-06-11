@@ -11,7 +11,7 @@ public class RotateArray {
 
     static void rotate(int[] arr, int k) {
         int n = arr.length;
-        // k = k % n;
+        k = k % n;
         swap(arr, 0, n-1);
         swap(arr, 0, k - 1);
         swap(arr, k, n-1);
@@ -29,5 +29,4 @@ public class RotateArray {
 }
 
 
-
-
+ 

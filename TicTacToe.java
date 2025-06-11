@@ -1,7 +1,9 @@
 package Java_Bootcamp;
+
 import java.util.Scanner;
 
 public class TicTacToe {
+
     public static void main(String[] args) {
         char[][] board = new char[3][3];
         for (int row = 0; row < board.length; row++) {
@@ -43,7 +45,8 @@ public class TicTacToe {
                     // Switch player
                     player = (player == 'X') ? 'O' : 'X';
                 }
-            } else {
+            }
+            else {
                 System.out.println("Cell already occupied. Try again.");
             }
         }
@@ -78,7 +81,9 @@ public class TicTacToe {
     public static boolean isDraw(char[][] board) {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                if (board[i][j] == ' ') return false;
+                if (board[i][j] == ' ') {
+                    return false;
+                }
             }
         }
         return true;
@@ -90,7 +95,9 @@ public class TicTacToe {
             System.out.print(" ");
             for (int j = 0; j < board[i].length; j++) {
                 System.out.print(board[i][j]);
-                if (j < 2) System.out.print(" | ");
+                if (j < 2) {
+                    System.out.print(" | ");
+                }
             }
             System.out.println();
             if (i < 2) {

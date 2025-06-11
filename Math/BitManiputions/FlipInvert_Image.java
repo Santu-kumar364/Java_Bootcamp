@@ -1,9 +1,8 @@
 package Java_Bootcamp.Math.BitManiputions;
-
 class FlipInvert_Image {
     public static int[][] flipAndInvertImage(int[][] image) {
         int n = image[0].length;
-
+ 
         for (int[] row : image) {
             for (int i = 0; i < (n + 1) / 2; i++) {
                 // Swap and invert using XOR

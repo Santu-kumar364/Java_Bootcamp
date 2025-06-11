@@ -9,8 +9,8 @@ public class Nto1 {
         funBoth(5);
 
 
-        System.out.println("sum of N to 1: " + sum(5));
-        System.out.println("product from N to 1:" + mul(5));
+        // System.out.println("sum of N to 1: " + sum(5));
+        // System.out.println("product from N to 1:" + mul(5));
     }
 
     static void fun(int n) {

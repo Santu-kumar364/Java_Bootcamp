@@ -1,9 +1,7 @@
 package Java_Bootcamp.DSA.Tree;
-
 import java.util.Scanner;
 
 class Node {
-
     int data;
     Node left;
     Node right;
@@ -14,7 +12,6 @@ class Node {
 }
 
 public class CustomTree {
-
     Node root;
 
     public void populate(Scanner scanner) {
@@ -43,18 +40,7 @@ public class CustomTree {
             populate(scanner, node.right);
         }
     }
-
-    // public void display() {
-    //     display(root, " ");
-    // }
-    // private void display(Node node, String indent) {
-    //     if (node == null) {
-    //         return;
-    //     }
-    //     System.out.println(indent + node.data);
-    //     display(node.left, indent + " ");
-    //     display(node.right, indent + " ");
-    // }
+ 
     public void display() {
         if (root == null) {
             return;
@@ -66,7 +52,6 @@ public class CustomTree {
         if (node == null) {
             return;
         }
-
         // Print right child first (to align branches correctly)
         displayVertical(node.right, level + 1);
 
@@ -85,3 +70,5 @@ public class CustomTree {
         tree.display();
     }
 }
+
+

@@ -1,8 +1,8 @@
 package Java_Bootcamp.Basics;
  
-import java.util.Arrays;
+import java.util.*;
 
-/*public class CurrencyConverter {
+public class CurrencyConverter {
 
     public static void main(String[] args) {
 
@@ -17,40 +17,6 @@ import java.util.Arrays;
         sc.close();
     }
     
-}*/
- 
- 
-
-class CurrencyConverter {
-
-    static void selection(int[] arr) {
-        int n = arr.length;
-
-        for (int i = 0; i < n - 1; i++) {
-            int minVal = i;
-            for (int j = i; j < n; j++) {  // Corrected loop condition
-                if (arr[j] < minVal) {
-                    minVal = j;
-
-                }
-            }
-            int temp = arr[i];
-            arr[i] = arr[minVal];
-            arr[minVal] = temp;
-        }
-
-        System.out.println(Arrays.toString(arr));
-    }
-
-    public static void main(String[] args) {
-        int[] arr = {4, 5, 8, 0, 10, 7, 25, 17};
-        selection(arr);
-    }
 }
-
-
-
-
-
-
-
+ 
+  

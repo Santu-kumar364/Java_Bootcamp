@@ -1,9 +1,6 @@
 package Java_Bootcamp.Basics;
-
 import java.util.Scanner;
-
 public class largestNumber {
-
     static void largest(int a, int b) {
         if(a > b) {
             System.out.println("a is greater");
