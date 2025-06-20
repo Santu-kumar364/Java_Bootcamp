@@ -21,7 +21,7 @@ public class CustomTree {
         populate(scanner, root);
     }
 
-    public void populate(Scanner scanner, Node node) {
+    private  void populate(Scanner scanner, Node node) {
         System.out.println("Do you want to enter Left of " + node.data);
         boolean left = scanner.nextBoolean();
         if (left) {
